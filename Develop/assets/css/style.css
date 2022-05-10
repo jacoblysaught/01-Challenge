@@ -1,13 +1,15 @@
+/*universal selector adjusting margin and border of page to 0*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+main {
     background-color: #d9dcd6;
 }
 
+/* header style starts here*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,14 +34,15 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* header style ends here*/
 
 a {
     color: #ffffff;
@@ -75,6 +78,7 @@ p {
     margin-left: 20px;
 }
 
+/*aside box styling start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +89,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*aside box styling end*/
 
+/* style change to the text of the asides heading start*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +106,9 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* style change to the text of the asides heading end*/
 
+/*aside img heading start*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +123,10 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/*aside img heading end*/
 
+
+/*aside img style start*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +144,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*aside img style end*/
 
+/* left section box style start*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +173,9 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* left section box style end*/
 
+/* left section img styles start*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +187,9 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+/* left section img styles end*/
 
+/*left imgs heading styles start */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +204,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*left imgs heading styles end */
 
+/*footer style starts here*/
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +217,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*footer style ends here*/
